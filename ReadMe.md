@@ -12,10 +12,12 @@ python3
 pip install python-docx
 pip install docx
 pip install xlsxwriter
+git clone https://github.com/sevenseablue/office
+cd office
 ```
 
 #### 执行语句
 ```python
-python word_tb_to_excel.py /home/wangdawei/Documents/word1.docx
+python word_tb_to_excel.py word文件路径
 ```
 结果在同名的excel文件中
